@@ -218,24 +218,33 @@ body {
 
   @media screen and (max-width: 980px) {
     #main-container {
-      width: 640px;
+      width: 100%;
     }
   }
   
-  @media screen and (max-width: 768px){
-    
+  @media screen and (max-width: 768px) {
+    #main-container {
+      width: 80%;
+    }
   }
 
   @media screen and (max-width: 640px) {
     #mast-head {
       position: static;
+      float: left;
+      display: block;
+      text-align: center;
     }
     #main-container {
-      width: 100%;
-      padding: 20px;
-    }
+      width: 50%;
+    }  
     .auth-image {
-      width: 95%;
+      width:100%;
+    } 
+    .work {
+      width: 100%;
     }
-    
+    #contact-form {
+      width: 100%;
+    }
   }
